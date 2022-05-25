@@ -12,7 +12,7 @@ public interface PlayerRepository extends JpaRepository<Player, Long> {
 
 	public Player findPlayerByTeamName(String teamName);
 	
-//	public List<Player> findListByPlayerId(Long playerId);
+	public List<Player> findListByPlayerId(Long playerId);
 	public List<Player> findListByTeamName(String teamName);
 
 }
